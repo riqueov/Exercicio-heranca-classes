@@ -2,10 +2,15 @@ package exercicio.Animais;
 
 public class Preguica extends Animal {
 	public void Subindo() {
-		System.out.println("E est· subindo em uma arvore!");
+		System.out.println("E est√° subindo em uma arvore!");
 	}
 	
 	public void Apresenta(String nome, int idade) {
-		System.out.println("O Bicho preguiÁa, de nome " + nome + " tem " + idade + " anos");
+		System.out.println("O Bicho pregui√ßa, de nome " + nome + " tem " + idade + " anos");
+	}
+	
+	@Override
+	public void EmitirSom() {
+		System.out.println("*aAaU Au Au AUuU*");
 	}
 }
