@@ -1,6 +1,6 @@
 package exercicio.Animais;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String Nome;
 	private int Idade;	
