@@ -2,11 +2,16 @@ package exercicio.Animais;
 
 public class Cavalo extends Animal {
 	public void Correr() {
-		System.out.println("E est· correndo");
+		System.out.println("E est√° correndo");
 	}
 	
 	public void Apresenta(String nome, int idade) {
 		System.out.println("O Cavalo " + nome + " tem " + idade + " anos");
+	}
+	
+	@Override
+	public void EmitirSom() {
+		System.out.println("*Hiin in inn*");
 	}
 
 }
